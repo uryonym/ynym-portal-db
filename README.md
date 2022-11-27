@@ -1,4 +1,4 @@
-開発用PostgreSQLのDocker Composeファイルです。
+ynym-portalのバックエンド用PostgreSQLのDocker Composeファイルです。
 
 '.env'にユーザー、パスワードを記載してから起動します。
 
