@@ -1,6 +1,6 @@
 services:
   ynym-portal-db:
-    image: postgres:15.7
+    image: postgres:15.10
     container_name: ynym-portal-db
     hostname: ynym-portal-db
     restart: always
