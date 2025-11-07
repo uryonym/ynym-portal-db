@@ -1,6 +1,6 @@
 services:
   ynym-portal-db:
-    image: postgres:15.13
+    image: postgres:15.14
     container_name: ynym-portal-db
     hostname: ynym-portal-db
     restart: always
@@ -24,4 +24,3 @@ volumes:
 networks:
   default:
     name: ynym-portal-network
-    external: true
