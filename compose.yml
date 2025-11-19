@@ -15,6 +15,8 @@ services:
       - 5432:5432
     volumes:
       - ynym-portal-db-volume:/var/lib/postgresql/data
+    networks:
+      - ynym-portal-network
 
 volumes:
   ynym-portal-db-volume:
@@ -22,5 +24,6 @@ volumes:
     driver: local
 
 networks:
-  default:
+  ynym-portal-network:
     name: ynym-portal-network
+    external: true
